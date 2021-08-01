@@ -90,7 +90,7 @@ theme.loadEditor = function ()
 		IncSearch =  			{ fg = mountain.aki, bg = mountain.none, style = 'reverse' },
     		LineNr =     			{ fg = mountain.amagumo },
 		CursorLineNr =			{ fg = mountain.okami },
-		MatchParen = 			{ fg = mountain.yuyake, bg = mountain.none, style = 'bold' },
+		MatchParen = 			{ bg = mountain.amagumo, style = 'bold' },
 		ModeMsg =    			{ fg = mountain.okami, style = 'bold' },
 		MoreMsg =    			{ fg = mountain.ume },
 		MsgArea =    			{ fg = mountain.okami },
