@@ -29,12 +29,12 @@ theme.loadSyntax = function ()
 --		Tag =				{ fg = mountain.kori },
 --		Delimiter =			{ fg = mountain.kori },
 --		SpecialComment =		{ fg = mountain.kori },
---		Debug =				{ fg = mountain.kori },
+		Debug =				{ fg = mountain.mountain08 },
 		Underlined =			{ style = 'underline' },
 		Bold =				{ style = 'bold' },
 		Italic =			{ style = 'italic' },
 --		Ignore =			{ fg = mountain.iwa},
-		Error =				{ fg = mountain.kaen, style = 'bold,underline' },
+		Error =				{ fg = mountain.mountain00, bg = mountain.mountain08 },
 		Todo =				{ fg = mountain.yoru, bg = mountain.suna },
 		Conceal =			{ fg = mountain.iwa},
 
@@ -66,7 +66,7 @@ theme.loadEditor = function ()
 	
 
 	local editor = {
-		Normal =			{ fg = mountain.yuki, bg = mountain.yoru },
+		Normal =			{ fg = mountain.mountain05, bg = mountain.mountain00 },
 		NormalNC =			{ fg = mountain.yuki, bg = mountain.yoru },
 		NormalFloat =			{ fg = mountain.yuki, bg = mountain.yoru },
 		FloatBorder =			{ fg = mountain.yuki, bg = mountain.amagumo },
@@ -74,14 +74,14 @@ theme.loadEditor = function ()
 		Conceal =    			{ fg = mountain.iwa },
 		Cursor =     			{ fg = mountain.yuki, bg = mountain.none, style = 'reverse' },
 		CursorIM =   			{ fg = mountain.yuki, bg = mountain.none, style = 'reverse' },
-		Directory =  			{ fg = mountain.ajisai },
+		Directory =  			{ fg = mountain.mountain0D },
 		DiffAdd =    			{ fg = mountain.kusa, bg = mountain.none, style = 'reverse' },
 		DiffChange = 			{ fg = mountain.ajisai, bg = mountain.none, style = 'reverse' },
 		DiffDelete = 			{ fg = mountain.ichigo, bg = mountain.none, style = 'reverse' },
 		DiffText =   			{ fg = mountain.ume, bg = mountain.none, style = 'reverse' },
 		EndOfBuffer =			{ fg = mountain.yoru },
 		VertSplit =			{ fg = mountain.iwa },
-		ErrorMsg =   			{ fg = mountain.kaen },
+		ErrorMsg =   			{ fg = mountain.mountain08, bg = mountain.mountain00 },
 		Folded =     			{ fg = mountain.ume, bg = mountain.iwa, style = 'italic' },
 	    	FoldColumn = 			{ fg = mountain.amagumo, bg = mountain.iwa },
 	    	SignColumn = 			{ fg = mountain.amagumo, bg = mountain.iwa },
@@ -90,7 +90,7 @@ theme.loadEditor = function ()
 		IncSearch =  			{ fg = mountain.aki, bg = mountain.none, style = 'reverse' },
     		LineNr =     			{ fg = mountain.amagumo },
 		CursorLineNr =			{ fg = mountain.okami },
-		MatchParen = 			{ fg = mountain.yuyake, bg = mountain.none, style = 'bold' },
+		MatchParen = 			{ bg = mountain.amagumo, style = 'bold' },
 		ModeMsg =    			{ fg = mountain.okami, style = 'bold' },
 		MoreMsg =    			{ fg = mountain.ume },
 		MsgArea =    			{ fg = mountain.okami },
@@ -129,13 +129,13 @@ end
 
 theme.loadTerminal = function ()
 
-	vim.g.terminal_color_0 = mountain.amagumo
-	vim.g.terminal_color_1 = mountain.kaen
-	vim.g.terminal_color_2 = mountain.take
-	vim.g.terminal_color_3 = mountain.chikyu
-	vim.g.terminal_color_4 = mountain.ume
-	vim.g.terminal_color_5 = mountain.kosumosu
-	vim.g.terminal_color_6 = mountain.mizu
+	vim.g.terminal_color_0 = mountain.mountain00
+	vim.g.terminal_color_1 = mountain.mountain04
+	vim.g.terminal_color_2 = mountain.mountain02
+	vim.g.terminal_color_3 = mountain.mountain03
+	vim.g.terminal_color_4 = mountain.mountain04
+	vim.g.terminal_color_5 = mountain.mountain05
+	vim.g.terminal_color_6 = mountain.mountain06
 	vim.g.terminal_color_7 = mountain.yuki
 	vim.g.terminal_color_8 = mountain.iwa
 	vim.g.terminal_color_9 = mountain.ichigo
