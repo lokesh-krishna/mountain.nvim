@@ -1,39 +1,31 @@
 local mountain = {
 
-	-- Grayscale 
-	yoru	= 	'#0f0f0f',
-	kesseki	= 	'#191919',
-	iwa	=	'#262626',
-	tetsu	=	'#393939',
-	amagumo	=	'#4c4c4c',
-	gin	=	'#767676',
-	okami	=	'#a0a0a0',
-	tsuki	=	'#bfbfbf',
-	fuyu	=	'#cacaca',
+	mountain00 =		'0f0f0f',
+	mountain01 = 		'191919',
+ 	mountain02 = 		'262626',
+ 	mountain03 = 		'4c4c4c',
+ 	mountain04 = 		'ac8a8c',
+ 	mountain05 = 		'f0f0f0',
+ 	mountain06 = 		'e7e7e7',
+ 	mountain07 = 		'f0f0f0',
+	-- red
+ 	mountain08 = 		'ac8a8c',
+	-- orange
+ 	mountain09 = 		'c6a679',
+	-- yellow
+ 	mountain0A = 		'aca98a',
+	-- green
+ 	mountain0B = 		'8aac8b',
+	-- cyan
+ 	mountain0C = 		'8aabac',
+	-- blue
+ 	mountain0D = 		'8f8aac',
+	-- magenta
+ 	mountain0E = 		'ac8aac',
+	-- dark red
+ 	mountain0F = 		'ac8a8c',
 
-	-- Alphas
-	ume	=	'#8f8aac',
-	kosumosu=	'#ac8aac',
-	chikyu	=	'#aca98a',
-	kaen	=	'#ac8a8c',
-	aki	=	'#c6a679',
-	mizu	=	'#8aacab',
-	take	=	'#8aac8b',
-	shinkai	=	'#8a98ac',
-	usagi	=	'#e7e7e7',
-
-	-- Accents
-	ajisai	=	'#a49ec4',
-	sakura	=	'#c49ec4',
-	suna	=	'#c4c19e',
-	ichigo	=	'#c49ea0',
-	yuyake	=	'#ceb188',
-	sora	=	'#93c3c4',
-	kusa	=	'#9ec49f',
-	kori	=	'#a5b4cb',
-	yuki	=	'#f0f0f0',
-
-	none	=	'NONE',
+	none	=		'NONE',
 }
 
 return mountain
