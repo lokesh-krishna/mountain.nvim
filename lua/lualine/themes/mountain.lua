@@ -18,12 +18,12 @@ local colors = {
 
 return {
 	normal = {
-		a = {fg = colors.yoru, bg = colors.kusa, gui = 'bold'},
+		a = {fg = colors.yoru, bg = colors.sakura, gui = 'bold'},
 		b = {fg = colors.yuki, bg = colors.amagumo},
 		c = {fg = colors.yuki, bg = colors.iwa},
 		x = {fg = colors.yuki, bg = colors.iwa},
 		y = {fg = colors.yuki, bg = colors.amagumo},
-		z = {fg = colors.yoru, bg = colors.kusa},
+		z = {fg = colors.yoru, bg = colors.sakura},
 	},
 
 	insert = {
@@ -36,12 +36,12 @@ return {
 	},
 
 	visual = {
-		a = {fg = colors.yoru, bg = colors.sakura, gui = 'bold'},
+		a = {fg = colors.yoru, bg = colors.ajisai, gui = 'bold'},
 		b = {fg = colors.yuki, bg = colors.amagumo},
 		c = {fg = colors.yuki, bg = colors.iwa},
 		x = {fg = colors.yuki, bg = colors.iwa},
 		y = {fg = colors.yuki, bg = colors.amagumo},
-		z = {fg = colors.yoru, bg = colors.sakura},
+		z = {fg = colors.yoru, bg = colors.ajisai},
 	},
 
 	replace = {
