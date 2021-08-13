@@ -52,7 +52,7 @@ theme.loadSyntax = function ()
 		-- Debug
 		debugPC = 			{ bg = mountain.iwa },
 	}
-		syntax.Comment =		{fg = mountain.amagumo}
+		syntax.Comment =		{fg = mountain.amagumo, style = "italic" }
 --		syntax.Conditional =		{fg = mountain.kosumosu}
 		syntax.Keyword =		{fg = mountain.sora}
 --		syntax.Repeat =			{fg = mountain.chikyu}
