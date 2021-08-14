@@ -121,7 +121,7 @@ theme.loadEditor = function ()
 		Whitespace =			{ fg = mountain.amagumo },
 		WildMenu =			{ bg = mountain.iwa },
 		CursorColumn =			{ fg = mountain.none, bg = mountain.iwa},
-		CursorLine =			{ fg = mountain.none, bg = mountain.iwa},
+		CursorLine =			{ fg = mountain.none, bg = mountain.kesseki},
 	}
 
 	return editor
